@@ -1,19 +1,23 @@
-@media screen and (min-width: 429px){.navbar {
-  background-color: rgb(157, 157, 247);
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 10px;
-  font-size: 30px;
-}}
+@media screen and (min-width: 429px) {
+  .navbar {
+    background-color: rgb(157, 157, 247);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
 
-@media screen and (max-width: 428px){.navbar {
-  background-color: rgb(157, 157, 247);
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 6.67px;
-  font-size: 20px;
-}}
+@media screen and (max-width: 428px) {
+  .navbar {
+    background-color: rgb(157, 157, 247);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 6.67px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

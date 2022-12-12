@@ -1,0 +1,53 @@
+@media screen and (min-width: 429px) {
+  .profile {
+    text-align: center;
+    background-color: gray;
+
+    overflow: hidden;
+    .profile-decorate {
+      margin-top: 0%;
+      background-color: pink;
+      border-bottom-left-radius: 30%;
+      border-bottom-right-radius: 30%;
+      padding: 0%;
+    }
+    .profile-name {
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: xxx-large;
+      padding: 7.5px;
+    }
+    .profile-title {
+      font-size: large;
+      padding: 7.5px;
+    }
+    .profile-about-me {
+      padding: 7.5px;
+    }
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .profile {
+    text-align: center;
+    background-color: gray;
+
+  }
+  .profile-name {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: xxx-large;
+    padding: 5px;
+  }
+  .profile-title {
+    font-size: large;
+    padding: 5px;
+  }
+  .profile-decorate {
+    margin-top: 0%;
+    background-color: pink;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 0%;
+  }
+}
