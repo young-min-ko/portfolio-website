@@ -3,9 +3,9 @@ import Navbar from './components/navbar/Navbar.js';
 
 const App = ()=>{
   return (
-    <>
-      <h1 data-testid="title">hello</h1>
-    </>
+    <div data-testid = 'app'>
+      <Navbar />
+    </div>
   )
 }
 
